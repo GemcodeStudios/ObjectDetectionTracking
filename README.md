@@ -1,6 +1,8 @@
 # ObjectDetectionTracking
 Ard Object Detection and Tracking Over Bluetooth
 
+Help @ https://github.com/GemcodesStudios/ObjectDetectionTracking/blob/master/README.md
+
 Introduction:
 This is an Android application specifically designed for students and electronics hobbyist. It uses OpenCV libararies for computer vision detection.
 
@@ -64,7 +66,7 @@ Bluetooth Data Transmit Formats:
 
 All data communication is sent as ASCII text in the following format:
 
-<Object Type>:<ID>:<XPos>,<YPos>,<Width>,<Height><NewLine>
+"Object Type":"ID":"XPos","YPos","Width","Height"
   
   Example Colour Blob Object: "CO:0:-40,60,0,0"
   Where ID is a number between 0 and 4 with no tracking, or any unique integer tracked ID number with tracking option. 
