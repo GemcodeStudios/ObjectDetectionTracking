@@ -87,8 +87,12 @@ All data communication is sent as ASCII text in the following format:
   
   Example People Object with Filter On Colour: "FP:0:-40,60,20,0"
   Where x,y positions gives top left of rectangle, and w, h gives width and height of rectangle.
-  
-  See sample Arduino sketch for above parsing of the text data.
+ 
+  All Tracked Object Types: "TO:0:-40,60,20,40".
+  Where x,y gives centre of rectangle, and width and height provide width and height.
+  Note that if option "Filter On Colour" is selected then tracked Colour Objects overlapping the circle or people objects will have       their tracked ids reset to 0.
+ 
+  See sample Arduino sketch for above parsing of the text data for a robot tracking a ball example.
   
  
 Copyright Gemcode Studios 2019
